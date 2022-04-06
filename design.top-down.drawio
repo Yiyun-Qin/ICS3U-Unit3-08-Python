@@ -37,7 +37,7 @@
                 <mxCell id="6" value="Get the year number entered" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="370" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="19">
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Check if&amp;nbsp; the year number is divisible by 4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -46,8 +46,14 @@
                 <mxCell id="16" value="Show the result(leap year or not)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="Check if the year is divisible by 100 and also divisible by 400" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Check if the year is divisible by 100" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="155" y="480" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Check if the year is divisible by 400" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="580" width="130" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
