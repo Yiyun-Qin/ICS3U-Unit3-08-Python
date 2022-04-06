@@ -1,7 +1,7 @@
 GET year_string
 TRY
     year_integer = int(year_string)
-    IF (year_integer % 4 == 0) THEN
+    IF (year_integer % 4 == 0 and year_integer > 0) THEN
         IF (year_integer % 100 == 0) THEN
             IF (year_integer % 400 == 0) THEN
                 SHOW "year_string is definitely a leap year!"
